@@ -1,0 +1,744 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E8064E1286748D200A1F379 /* download.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3E8064E0286748D200A1F379 /* download.gif */; };
+		3E8064E2286748D200A1F379 /* download.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3E8064E0286748D200A1F379 /* download.gif */; };
+		3E8064E4286748EE00A1F379 /* GifImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8064E3286748EE00A1F379 /* GifImage.swift */; };
+		3E8064E5286748EE00A1F379 /* GifImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8064E3286748EE00A1F379 /* GifImage.swift */; };
+		3ECFA8742860DEE800304442 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECFA8732860DEE800304442 /* Tests_iOS.swift */; };
+		3ECFA8762860DEE800304442 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECFA8752860DEE800304442 /* Tests_iOSLaunchTests.swift */; };
+		3ECFA8802860DEE800304442 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECFA87F2860DEE800304442 /* Tests_macOS.swift */; };
+		3ECFA8822860DEE800304442 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECFA8812860DEE800304442 /* Tests_macOSLaunchTests.swift */; };
+		3ECFA8832860DEE800304442 /* Chuck_Norris_jokesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECFA85B2860DEE600304442 /* Chuck_Norris_jokesApp.swift */; };
+		3ECFA8842860DEE800304442 /* Chuck_Norris_jokesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECFA85B2860DEE600304442 /* Chuck_Norris_jokesApp.swift */; };
+		3ECFA8852860DEE800304442 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECFA85C2860DEE600304442 /* ContentView.swift */; };
+		3ECFA8862860DEE800304442 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECFA85C2860DEE600304442 /* ContentView.swift */; };
+		3ECFA8872860DEE800304442 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ECFA85D2860DEE800304442 /* Assets.xcassets */; };
+		3ECFA8882860DEE800304442 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ECFA85D2860DEE800304442 /* Assets.xcassets */; };
+		3ECFA8982860E07200304442 /* Joke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECFA8972860E07200304442 /* Joke.swift */; };
+		3ECFA8992860E07200304442 /* Joke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECFA8972860E07200304442 /* Joke.swift */; };
+		3ECFA89B2860E6BD00304442 /* JokesCatagories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECFA89A2860E6BD00304442 /* JokesCatagories.swift */; };
+		3ECFA89C2860E6BD00304442 /* JokesCatagories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECFA89A2860E6BD00304442 /* JokesCatagories.swift */; };
+		3ECFA89E2860E70800304442 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECFA89D2860E70800304442 /* MainView.swift */; };
+		3ECFA89F2860E70800304442 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECFA89D2860E70800304442 /* MainView.swift */; };
+		3ECFA8A12860EDAB00304442 /* Catagories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECFA8A02860EDAB00304442 /* Catagories.swift */; };
+		3ECFA8A22860EDAB00304442 /* Catagories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECFA8A02860EDAB00304442 /* Catagories.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3ECFA8702860DEE800304442 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3ECFA8562860DEE500304442 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3ECFA8612860DEE800304442;
+			remoteInfo = "Chuck Norris jokes (iOS)";
+		};
+		3ECFA87C2860DEE800304442 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3ECFA8562860DEE500304442 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3ECFA8672860DEE800304442;
+			remoteInfo = "Chuck Norris jokes (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3E8064E0286748D200A1F379 /* download.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = download.gif; sourceTree = "<group>"; };
+		3E8064E3286748EE00A1F379 /* GifImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifImage.swift; sourceTree = "<group>"; };
+		3ECFA85B2860DEE600304442 /* Chuck_Norris_jokesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chuck_Norris_jokesApp.swift; sourceTree = "<group>"; };
+		3ECFA85C2860DEE600304442 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3ECFA85D2860DEE800304442 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3ECFA8622860DEE800304442 /* Chuck Norris jokes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chuck Norris jokes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ECFA8682860DEE800304442 /* Chuck Norris jokes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chuck Norris jokes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ECFA86A2860DEE800304442 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		3ECFA86F2860DEE800304442 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ECFA8732860DEE800304442 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		3ECFA8752860DEE800304442 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		3ECFA87B2860DEE800304442 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ECFA87F2860DEE800304442 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		3ECFA8812860DEE800304442 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		3ECFA8972860E07200304442 /* Joke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joke.swift; sourceTree = "<group>"; };
+		3ECFA89A2860E6BD00304442 /* JokesCatagories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesCatagories.swift; sourceTree = "<group>"; };
+		3ECFA89D2860E70800304442 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		3ECFA8A02860EDAB00304442 /* Catagories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Catagories.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3ECFA85F2860DEE800304442 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ECFA8652860DEE800304442 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ECFA86C2860DEE800304442 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ECFA8782860DEE800304442 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3ECFA8552860DEE500304442 = {
+			isa = PBXGroup;
+			children = (
+				3ECFA85A2860DEE500304442 /* Shared */,
+				3ECFA8692860DEE800304442 /* macOS */,
+				3ECFA8722860DEE800304442 /* Tests iOS */,
+				3ECFA87E2860DEE800304442 /* Tests macOS */,
+				3ECFA8632860DEE800304442 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3ECFA85A2860DEE500304442 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				3ECFA85B2860DEE600304442 /* Chuck_Norris_jokesApp.swift */,
+				3ECFA85C2860DEE600304442 /* ContentView.swift */,
+				3E8064E3286748EE00A1F379 /* GifImage.swift */,
+				3ECFA85D2860DEE800304442 /* Assets.xcassets */,
+				3E8064E0286748D200A1F379 /* download.gif */,
+				3ECFA8972860E07200304442 /* Joke.swift */,
+				3ECFA89A2860E6BD00304442 /* JokesCatagories.swift */,
+				3ECFA89D2860E70800304442 /* MainView.swift */,
+				3ECFA8A02860EDAB00304442 /* Catagories.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		3ECFA8632860DEE800304442 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3ECFA8622860DEE800304442 /* Chuck Norris jokes.app */,
+				3ECFA8682860DEE800304442 /* Chuck Norris jokes.app */,
+				3ECFA86F2860DEE800304442 /* Tests iOS.xctest */,
+				3ECFA87B2860DEE800304442 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3ECFA8692860DEE800304442 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				3ECFA86A2860DEE800304442 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		3ECFA8722860DEE800304442 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3ECFA8732860DEE800304442 /* Tests_iOS.swift */,
+				3ECFA8752860DEE800304442 /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		3ECFA87E2860DEE800304442 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				3ECFA87F2860DEE800304442 /* Tests_macOS.swift */,
+				3ECFA8812860DEE800304442 /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3ECFA8612860DEE800304442 /* Chuck Norris jokes (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ECFA88B2860DEE800304442 /* Build configuration list for PBXNativeTarget "Chuck Norris jokes (iOS)" */;
+			buildPhases = (
+				3ECFA85E2860DEE800304442 /* Sources */,
+				3ECFA85F2860DEE800304442 /* Frameworks */,
+				3ECFA8602860DEE800304442 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Chuck Norris jokes (iOS)";
+			productName = "Chuck Norris jokes (iOS)";
+			productReference = 3ECFA8622860DEE800304442 /* Chuck Norris jokes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3ECFA8672860DEE800304442 /* Chuck Norris jokes (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ECFA88E2860DEE800304442 /* Build configuration list for PBXNativeTarget "Chuck Norris jokes (macOS)" */;
+			buildPhases = (
+				3ECFA8642860DEE800304442 /* Sources */,
+				3ECFA8652860DEE800304442 /* Frameworks */,
+				3ECFA8662860DEE800304442 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Chuck Norris jokes (macOS)";
+			productName = "Chuck Norris jokes (macOS)";
+			productReference = 3ECFA8682860DEE800304442 /* Chuck Norris jokes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3ECFA86E2860DEE800304442 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ECFA8912860DEE800304442 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				3ECFA86B2860DEE800304442 /* Sources */,
+				3ECFA86C2860DEE800304442 /* Frameworks */,
+				3ECFA86D2860DEE800304442 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3ECFA8712860DEE800304442 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 3ECFA86F2860DEE800304442 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		3ECFA87A2860DEE800304442 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ECFA8942860DEE800304442 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				3ECFA8772860DEE800304442 /* Sources */,
+				3ECFA8782860DEE800304442 /* Frameworks */,
+				3ECFA8792860DEE800304442 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3ECFA87D2860DEE800304442 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 3ECFA87B2860DEE800304442 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3ECFA8562860DEE500304442 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					3ECFA8612860DEE800304442 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					3ECFA8672860DEE800304442 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					3ECFA86E2860DEE800304442 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 3ECFA8612860DEE800304442;
+					};
+					3ECFA87A2860DEE800304442 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 3ECFA8672860DEE800304442;
+					};
+				};
+			};
+			buildConfigurationList = 3ECFA8592860DEE500304442 /* Build configuration list for PBXProject "Chuck Norris jokes" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3ECFA8552860DEE500304442;
+			productRefGroup = 3ECFA8632860DEE800304442 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3ECFA8612860DEE800304442 /* Chuck Norris jokes (iOS) */,
+				3ECFA8672860DEE800304442 /* Chuck Norris jokes (macOS) */,
+				3ECFA86E2860DEE800304442 /* Tests iOS */,
+				3ECFA87A2860DEE800304442 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3ECFA8602860DEE800304442 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E8064E1286748D200A1F379 /* download.gif in Resources */,
+				3ECFA8872860DEE800304442 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ECFA8662860DEE800304442 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E8064E2286748D200A1F379 /* download.gif in Resources */,
+				3ECFA8882860DEE800304442 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ECFA86D2860DEE800304442 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ECFA8792860DEE800304442 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3ECFA85E2860DEE800304442 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ECFA8852860DEE800304442 /* ContentView.swift in Sources */,
+				3ECFA8832860DEE800304442 /* Chuck_Norris_jokesApp.swift in Sources */,
+				3ECFA89B2860E6BD00304442 /* JokesCatagories.swift in Sources */,
+				3E8064E4286748EE00A1F379 /* GifImage.swift in Sources */,
+				3ECFA89E2860E70800304442 /* MainView.swift in Sources */,
+				3ECFA8982860E07200304442 /* Joke.swift in Sources */,
+				3ECFA8A12860EDAB00304442 /* Catagories.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ECFA8642860DEE800304442 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ECFA8862860DEE800304442 /* ContentView.swift in Sources */,
+				3ECFA8842860DEE800304442 /* Chuck_Norris_jokesApp.swift in Sources */,
+				3ECFA89C2860E6BD00304442 /* JokesCatagories.swift in Sources */,
+				3E8064E5286748EE00A1F379 /* GifImage.swift in Sources */,
+				3ECFA89F2860E70800304442 /* MainView.swift in Sources */,
+				3ECFA8992860E07200304442 /* Joke.swift in Sources */,
+				3ECFA8A22860EDAB00304442 /* Catagories.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ECFA86B2860DEE800304442 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ECFA8762860DEE800304442 /* Tests_iOSLaunchTests.swift in Sources */,
+				3ECFA8742860DEE800304442 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ECFA8772860DEE800304442 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ECFA8822860DEE800304442 /* Tests_macOSLaunchTests.swift in Sources */,
+				3ECFA8802860DEE800304442 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3ECFA8712860DEE800304442 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3ECFA8612860DEE800304442 /* Chuck Norris jokes (iOS) */;
+			targetProxy = 3ECFA8702860DEE800304442 /* PBXContainerItemProxy */;
+		};
+		3ECFA87D2860DEE800304442 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3ECFA8672860DEE800304442 /* Chuck Norris jokes (macOS) */;
+			targetProxy = 3ECFA87C2860DEE800304442 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3ECFA8892860DEE800304442 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3ECFA88A2860DEE800304442 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		3ECFA88C2860DEE800304442 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2VX38TK785;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.RadwanAlfakseh.Chuck-Norris-jokes";
+				PRODUCT_NAME = "Chuck Norris jokes";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3ECFA88D2860DEE800304442 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2VX38TK785;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.RadwanAlfakseh.Chuck-Norris-jokes";
+				PRODUCT_NAME = "Chuck Norris jokes";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3ECFA88F2860DEE800304442 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2VX38TK785;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.RadwanAlfakseh.Chuck-Norris-jokes";
+				PRODUCT_NAME = "Chuck Norris jokes";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3ECFA8902860DEE800304442 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2VX38TK785;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.RadwanAlfakseh.Chuck-Norris-jokes";
+				PRODUCT_NAME = "Chuck Norris jokes";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		3ECFA8922860DEE800304442 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2VX38TK785;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.RadwanAlfakseh.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Chuck Norris jokes (iOS)";
+			};
+			name = Debug;
+		};
+		3ECFA8932860DEE800304442 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2VX38TK785;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.RadwanAlfakseh.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Chuck Norris jokes (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3ECFA8952860DEE800304442 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2VX38TK785;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.RadwanAlfakseh.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Chuck Norris jokes (macOS)";
+			};
+			name = Debug;
+		};
+		3ECFA8962860DEE800304442 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2VX38TK785;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.RadwanAlfakseh.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Chuck Norris jokes (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3ECFA8592860DEE500304442 /* Build configuration list for PBXProject "Chuck Norris jokes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ECFA8892860DEE800304442 /* Debug */,
+				3ECFA88A2860DEE800304442 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3ECFA88B2860DEE800304442 /* Build configuration list for PBXNativeTarget "Chuck Norris jokes (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ECFA88C2860DEE800304442 /* Debug */,
+				3ECFA88D2860DEE800304442 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3ECFA88E2860DEE800304442 /* Build configuration list for PBXNativeTarget "Chuck Norris jokes (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ECFA88F2860DEE800304442 /* Debug */,
+				3ECFA8902860DEE800304442 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3ECFA8912860DEE800304442 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ECFA8922860DEE800304442 /* Debug */,
+				3ECFA8932860DEE800304442 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3ECFA8942860DEE800304442 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ECFA8952860DEE800304442 /* Debug */,
+				3ECFA8962860DEE800304442 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3ECFA8562860DEE500304442 /* Project object */;
+}
